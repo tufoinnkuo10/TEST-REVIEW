@@ -1,0 +1,17 @@
+#img-div {
+    width: 100%;
+    height: auto;
+}
+#image{
+    width: 100%;
+    height: auto;
+}
+p{
+    color: rgb(88, 88, 47);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
