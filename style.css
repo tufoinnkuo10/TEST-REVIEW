@@ -20,10 +20,10 @@
   padding: 1%;
 }
 
-.full-body, h2 {
+.full-body,
+ h2 {
   display: flex;
   align-items: center;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   color: aqua;
@@ -36,7 +36,8 @@
   border-color: #1c1a19;
 }
 
-.text, p {
+.text,
+ p {
   color: darkorange;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
@@ -49,7 +50,6 @@ p {
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
 }
