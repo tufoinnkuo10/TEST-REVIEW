@@ -21,7 +21,7 @@
 }
 
 .full-body,
- h2 {
+h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -37,7 +37,7 @@
 }
 
 .text,
- p {
+p {
   color: darkorange;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
@@ -45,11 +45,4 @@
 }
 
 p {
-  color: rgb(32, 62, 145);
-}
-
-.center {
-  display: block;
-  margin: auto;
-  width: 50%;
-}
+  color: rgb(32, 62, 145);}
