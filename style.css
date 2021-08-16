@@ -1,17 +1,44 @@
 #img-div {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-#image{
-    width: 100%;
-    height: auto;
+
+#image {
+  width: 100%;
+  height: auto;
 }
-p{
-    color: rgb(88, 88, 47);
+
+.full-body {
+  background-image: url(images/bkimage.png);
+  background-color: #1c1a19;
+  width: 375px;
+  height: 670px;
+  background-position: 100% 100%;
+  background-repeat: repeat;
+  display: flex;
+  align-content: center;
+  padding: 1%;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+.full-body,
+h2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: aqua;
+}
+
+.image {
+  margin: 8px 00 2px;
+  border: 1px solid;
+  border-radius: 30%;
+  border-color: #1c1a19;
+}
+
+h4 {
+  color: darkorange;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bold;
 }
